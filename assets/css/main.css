@@ -3022,11 +3022,15 @@
 		.spotlights > section > .image {
 			background-position: center center;
 			background-size: cover;
+			background-repeat: no-repeat;
 			border-radius: 0;
 			display: block;
 			position: relative;
 			width: 25em;
 		}
+			.spotlights > section > .image-first{
+				background-size: contain;
+			}
 
 			.spotlights > section > .image img {
 				border-radius: 0;
